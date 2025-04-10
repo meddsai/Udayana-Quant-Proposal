@@ -1,0 +1,70 @@
+\documentclass[12pt, a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[indonesian]{babel}
+\usepackage{geometry}
+\geometry{left=4cm, right=3cm, top=3cm, bottom=3cm}
+\usepackage{setspace}
+\doublespacing
+\usepackage{graphicx}
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+\begin{document}
+
+% Front Matter
+\frontmatter
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\LARGE Usulan Penelitian}\\[1cm]
+    {\Huge \textbf{JUDUL PENELITIAN}}\\[2cm]
+    \includegraphics[width=0.5\textwidth]{logo.png}\\[1cm]
+    {\Large Nama Mahasiswa}\\[0.5cm]
+    {\large NIM: xxxxxxxxxx}\\[2cm]
+    {\Large Program Studi XXXXX}\\[0.5cm]
+    {\Large Pascasarjana}\\[0.5cm]
+    {\Large Universitas Udayana}\\[1cm]
+    {\Large Tahun}
+\end{titlepage}
+
+\chapter*{Persetujuan Pembimbing}
+% Tambahkan nama pembimbing dan tanda tangan di sini.
+
+\tableofcontents
+\listoftables
+\listoffigures
+\chapter*{Daftar Singkatan dan Lambang}
+\begin{description}
+    \item[Contoh] Penjelasan
+\end{description}
+
+% Main Body
+\mainmatter
+
+\chapter{Pendahuluan}
+\section{Latar Belakang}
+% Tulis latar belakang penelitian Anda di sini.
+
+\chapter{Kajian Pustaka}
+% Jelaskan tinjauan pustaka yang relevan.
+
+\chapter{Kerangka Berpikir, Konsep Penelitian dan Hipotesis Penelitian}
+\section{Kerangka Berpikir}
+% Deskripsikan kerangka berpikir.
+
+\chapter{Metode Penelitian}
+\section{Rancangan Penelitian}
+% Jelaskan desain penelitian.
+
+% Back Matter
+\backmatter
+
+\chapter*{Daftar Pustaka}
+\bibliography{references}
+
+\chapter*{Lampiran}
+% Sertakan lampiran seperti jadwal penelitian.
+
+\end{document}
