@@ -1,2 +1,41 @@
-.aux
-.log
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.nlg
+*.nlo
+*.nls
+
+# Generated PDF
+*.pdf
+
+# Editor backup files
+*~
+*.bak
+*.swp
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store

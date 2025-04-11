@@ -6,8 +6,9 @@
 \usepackage{setspace}
 \doublespacing
 \usepackage{graphicx}
-\usepackage{natbib}
-\bibliographystyle{apalike}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+\usepackage{csquotes}
 \renewcommand{\thechapter}{\Roman{chapter}}
 
 \begin{document}
@@ -45,10 +46,16 @@
 
 \chapter{Pendahuluan}
 \section{Latar Belakang}
-% Tulis latar belakang penelitian Anda di sini.
+Penelitian ini didasarkan pada metodologi penelitian kuantitatif \parencite{smith2020}. 
+Beberapa penelitian terdahulu \textcite{jones2019} menunjukkan pentingnya pendekatan sistematis 
+dalam penelitian. Analisis kuantitatif terbaru \parencite{lee2021} memberikan 
+pemahaman yang lebih mendalam tentang topik ini.
 
 \chapter{Kajian Pustaka}
-% Jelaskan tinjauan pustaka yang relevan.
+Menurut \textcite{anderson2018}, metodologi penelitian memiliki peran penting dalam 
+keberhasilan sebuah penelitian. Hal ini didukung oleh pedoman penelitian terbaru 
+\parencite{research2022}. Laporan terkini \parencite{university2021} menunjukkan 
+perkembangan signifikan dalam bidang ini.
 
 \chapter{Kerangka Berpikir, Konsep Penelitian dan Hipotesis Penelitian}
 \section{Kerangka Berpikir}
@@ -62,7 +69,7 @@
 \backmatter
 
 \chapter*{Daftar Pustaka}
-\bibliography{references}
+\printbibliography[title={Daftar Pustaka}]
 
 \chapter*{Lampiran}
 % Sertakan lampiran seperti jadwal penelitian.
